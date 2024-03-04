@@ -1,0 +1,68 @@
+
+table td{
+    margin: 0;
+    padding: 0;
+}
+table p{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table{
+    margin: auto;
+}
+#button_cung_dz,#submit{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 10px ;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#button_cung_dz:hover ,#submit:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+#Cuon_dz{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    width: 350px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+#anhnen_bai_thi_0{
+    position:absolute;
+    z-index: -1;
+    width: 680px;
+    left: 70%
+}
+
+#bai_thi {
+    position: relative;
+    text-align: center;
+}
+#anhnen_bai_thi_1{
+    position:fixed;
+    z-index: -1;
+    right: -10%;
+    bottom: 0;
+    opacity: 1;
+}
+#anhnen_bai_thi_2{
+    position:fixed;
+    left: 30%;
+    z-index: -2;
+    bottom: 0%;
+    width: 700px;
+}
+
+#ket_qua,#bai_thi{display: none;}
+#cau_hoi{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
